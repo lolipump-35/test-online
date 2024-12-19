@@ -1,15 +1,15 @@
-body{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+/* Taille par défaut pour PC */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-h1{
-    background-color: bisque;
-    padding: 10px;
-    border-radius: 10px;
-    display: block;
-    align-items: center;
-   
-
+/* Adaptation pour mobile */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
 }
