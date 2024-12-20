@@ -1,23 +1,76 @@
-/* Taille par défaut pour PC */
-body {
-    font-size: 32px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  
-}
-
-/* Adaptation pour mobile */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
+@media (min-width: 768px) {
+    .container {
+        width: 50%;
     }
 }
 
-.container{
+body {
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    align-items: center;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+.item1 {
+    background-color: #8B6057;
+    color: aliceblue;
    
+}
+
+.item2 {
+    background-color: #E0C2BC;
+   
+}
+
+.item3 {
+    background-color: #EDE2DD;
+    }
+
+.item3 p{
+    margin: 20px;
+}
+
+.item4 {
+    background-color: #EDE2DD;
+   
+}
+
+.item4 p {
+    margin: 20px;
+}
+
+.item5{
+    background-color: #EDE2DD;
+   
+}
+
+.item5 p {
+    margin: 20px;
+}
+
+.image-container {
+
+    height: 200px; /* Hauteur de la "fenêtre" visible */
+    overflow: hidden; /* Coupe tout ce qui déborde */
+   
+  }
+
+  .image-container img {
+    display: flex;
+    align-items: center;
+ 
+    width: 100%; /* Adapte la largeur de l'image au conteneur */
+    height: auto; /* Garde les proportions */
+    /* transform: translate(0, -270px); */
+  
+  }
+
+span {
+    color: white;
+    font-size: 1.1rem;
 }
